@@ -35,7 +35,8 @@ module.exports = {
       'bio': '#6d4e46',
       'glass': '#4dc591',
       'plastic' : '#ffff33',
-      'paper' : '#336fff'
+      'paper' : '#336fff',
+      'userProfileColor': '#085CAF',
      })
   },
   variants: {

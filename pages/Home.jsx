@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div className="w-screen h-screen">
             <Navbar />
-            <div className="mobmd:flex mobmd:flex-col w-2/3">
+            <div className="mobmd:flex mobmd:flex-col w-2/3 h-screen">
                 <User />
             </div>
         </div>
