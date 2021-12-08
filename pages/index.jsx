@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import { Login } from './data/buttons'
 
 const Home = () => {
@@ -18,7 +19,9 @@ const Home = () => {
           const {text, style,  href} = el;
           return (
             <li key={index} className={style}>
-              <a href={href} className='w-full h-full'> {text} </a>
+              <Link href={href} className='w-full h-full'> 
+                <a> {text} </a> 
+              </Link>
             </li>
           )
         })}
