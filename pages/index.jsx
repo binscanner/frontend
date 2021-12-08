@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { Login } from './data/buttons'
+import { MainButtons } from './data/data'
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
         </p>
       </span>
       <ul className='flex flex-col justufy-center xsm:items-center w-full lg:items-start'>
-        {Login.map((el, index) => {
+        {MainButtons.map((el, index) => {
           const {text, style,  href} = el;
           return (
             <li key={index} className={style}>

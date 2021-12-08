@@ -1,23 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=K2D:wght@300&family=Poppins:wght@200&display=swap");
 
 @media screen and (max-width: 290px) {
-  .logo {
-    font-size: 2.5rem;
-  }
+    .logo {
+        font-size: 2.5rem;
+    }
 }
 
 .poppins {
-  font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 .k2d {
-  font-family: "K2D", sans-serif;
+    font-family: "K2D", sans-serif;
 }
 .login-button--border {
-  border: 1px solid #165016;
+    border: 1px solid #165016;
 }
 .brd {
-  border: 1px solid black;
+    border: 1px solid black;
 }
 .link-custom {
-  color: #0098ea;
+    color: #0098ea;
 }

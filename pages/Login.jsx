@@ -1,12 +1,12 @@
 import React from 'react';
 import Link from 'next/link'
-import data from './data/login';
+import { LoginButtons as data } from './data/data';
 
 const Login = () => {
     return (
         <article className="flex flex-col w-screen h-screen justify-center items-center">
-            <div className="k2d text-5xl m-10">
-                binscanner
+            <div className=" m-10">
+                <Link href="/"><a className="k2d text-5xl">binscanner</a></Link> 
             </div>
             <form action="" className="flex flex-col items-center justify-center w-72">
                 <span className="flex flex-row justify-between w-full items-center m-4">                    
