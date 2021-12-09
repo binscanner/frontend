@@ -37,6 +37,9 @@ module.exports = {
       'plastic' : '#ffff33',
       'paper' : '#336fff',
       'userProfileColor': '#085CAF',
+      'moneyCounterColor' : '#FFC278',
+      'lastScanColor' : '#8F98FF',
+      'lastScanBorderColor' : '#182A88',
      })
   },
   variants: {

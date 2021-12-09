@@ -1,14 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Link from "next/link";
 import { BsMoonFill } from "react-icons/bs";
 
-const User = () => {
+const User = ({ theme, toggleTheme }) => {
+    // useEffect(() => {
+    //     document.documentElement.className = theme;
+    //     localStorage.setItem("theme, theme");
+    // }, [theme]);
+
     return (
-        <div className="w-1/2 h-1/2 flex flex-col md:hidden items-center justify-center top-0 left-0">
-            <div className="w-1/2  flex justify-center items-center flex-col relative">
-                <div className="absolute left-0 top-0">
+        <div className="w-3/5 h-1/2 flex flex-col md:hidden items-center justify-center top-0 left-0 p-8">
+            <div className="w-full h-full flex justify-center items-center flex-col relative bg-gray-100 rounded-xl">
+                {/* <div
+                    className="absolute left-0 top-0"
+                    // onClick={toggleTheme()}
+                >
                     <BsMoonFill size={32} />
-                </div>
+                </div> */}
                 <div className="w-28 h-28 bg-gray-200 rounded-md">
                     {/* miejsce na obrazek profilowe*/}
                 </div>

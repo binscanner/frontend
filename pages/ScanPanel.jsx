@@ -7,7 +7,7 @@ const ScanPanel = () => {
     return (
         <div className="flex flex-col justify-center align-center w-screen h-screen relative">
             <span className=" absolute top-3 left-3 sm:top-1 sm:left-1">
-                <Link href="/Home">
+                <Link href="javascript:history.go(-1)">
                     <HiOutlineArrowNarrowLeft size={40} />
                 </Link>
             </span>

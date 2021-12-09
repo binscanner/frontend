@@ -12,7 +12,7 @@ const MainButtons = [
     {
         text: "Continue without Login",
         style: "w-1/6 xsm:w-3/4 pt-2 pb-2 text-xl text-center rounded-md lg:w-1/5 ml-10 lg:ml-5 lg:min-w-max",
-        href: "/Home",
+        href: "/ScanPanel",
     },
 ];
 
@@ -77,6 +77,17 @@ const ScanPanelButtons = [
     //     name: 'ITEM',
     //     style: 'item poppins'
     // },
+];
+
+const ScanBoxButtons = [
+    {
+        text: 'Scan now',
+        url: '/ScanPanel'
+    },
+    {
+        text: 'Add file',
+        url: '/ScanFile'
+    }
 ]
 
-export { MainButtons, LoginButtons, SignupButtons, NavbarButtons, ScanPanelButtons };
+export { MainButtons, LoginButtons, SignupButtons, NavbarButtons, ScanPanelButtons, ScanBoxButtons };
