@@ -13,7 +13,7 @@ const MoneyCounter = () => {
     }, []);
 
     return (
-        <main className="w-2/5 h-1/2 flex items-center justify-center p-8">
+        <main className="w-full h-1/2 flex items-center justify-center p-8 pt-0 pb-20">
             <div className="w-full h-full bg-moneyCounterColor rounded-xl flex flex-col items-center justify-evenly">
                 <div className="text-2xl font-semibold text-center w-8/12 text-white">
                     Collected funds for a charity collection

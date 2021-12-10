@@ -36,10 +36,11 @@ module.exports = {
       'glass': '#4dc591',
       'plastic' : '#ffff33',
       'paper' : '#336fff',
-      'userProfileColor': '#085CAF',
+      'userProfileColor': '#4A5AE8',
       'moneyCounterColor' : '#FFC278',
       'lastScanColor' : '#8F98FF',
       'lastScanBorderColor' : '#182A88',
+      'home': '#22343C',
      })
   },
   variants: {

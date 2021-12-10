@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 
-import Navbar from "./components/Navbar";
-import UserBox from "./components/UserBox";
-import ScanBox from "./components/ScanBox";
-import MoneyBox from "./components/MoneyBox";
+import Navbar from "../components/Navbar";
+import UserBox from "../components/UserBox";
+import ScanBox from "../components/ScanBox";
+import MoneyBox from "../components/MoneyBox";
+import ErrorsBox from "../components/ErrorsBox";
 
 const Home = () => {
     const getStorageTheme = () => {
@@ -38,17 +39,24 @@ const Home = () => {
 
     return (
         <div
-            className={`w-screen h-screen ${
-                theme === "light-theme" ? "bg-dark" : "bg-white"
-            }`}
+            className="w-screen h-screen bg-home flex"
+            // ${ theme === "light-theme" ? "bg-dark" : "bg-white" }
         >
             <Navbar />
-            <div className="flex flex-wrap w-3/5 h-screen justify-evenly">
-                <UserBox
-                // theme={theme} toggleTheme={toggleTheme()}
+            <div className="w-screen h-screen flex">
+                <div className="flex flex-col w-2/12 h-full justify-evenly z-10">
+                    <UserBox />
+                    <MoneyBox />
+                </div>
+                <div className="flex flex-col w-6/12 h-full justify-evenly z-10">
+                    <ScanBox />
+                    <ErrorsBox />
+                </div>
+                <img
+                    src="/assets/comp2-waves.png"
+                    alt=""
+                    className="absolute w-full left-0 bottom-0 "
                 />
-                <MoneyBox />
-                <ScanBox />
             </div>
         </div>
     );

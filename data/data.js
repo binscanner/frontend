@@ -6,12 +6,12 @@ import { FaCamera, FaHome, FaUserCircle } from "react-icons/fa";
 const MainButtons = [
     {
         text: "Login",
-        style: "login-button--border w-1/6 xsm:w-3/4 pt-2 pb-2 text-xl text-center rounded-md lg:w-1/5 ml-10 lg:ml-5 lg:min-w-max",
+        style: "login-button--border xsm:w-3/4 p-2 text-xl text-center rounded-md",
         href: "/Login",
     },
     {
         text: "Continue without Login",
-        style: "w-1/6 xsm:w-3/4 pt-2 pb-2 text-xl text-center rounded-md lg:w-1/5 ml-10 lg:ml-5 lg:min-w-max",
+        style: "p-2 text-xl text-center rounded-md lg:ml-5",
         href: "/ScanPanel",
     },
 ];
@@ -58,20 +58,20 @@ const NavbarButtons = [
 
 const ScanPanelButtons = [
     {
-        name: 'bio',
-        style: 'poppins hover:bg-bio xl:bg-bio '
+        name: "bio",
+        style: "poppins hover:bg-bio xl:bg-bio ",
     },
     {
-        name: 'glass',
-        style: 'poppins hover:bg-glass xl:bg-glass'
+        name: "glass",
+        style: "poppins hover:bg-glass xl:bg-glass",
     },
     {
-        name: 'plastic',
-        style: 'poppins hover:bg-plastic xl:bg-plastic'
+        name: "plastic",
+        style: "poppins hover:bg-plastic xl:bg-plastic",
     },
     {
-        name: 'paper',
-        style: 'poppins hover:bg-paper xl:bg-paper'
+        name: "paper",
+        style: "poppins hover:bg-paper xl:bg-paper",
     },
     // {
     //     name: 'ITEM',
@@ -81,13 +81,20 @@ const ScanPanelButtons = [
 
 const ScanBoxButtons = [
     {
-        text: 'Scan now',
-        url: '/ScanPanel'
+        text: "Scan now",
+        url: "/ScanPanel",
     },
     {
-        text: 'Add file',
-        url: '/ScanFile'
-    }
-]
+        text: "Add file",
+        url: "/ScanFile",
+    },
+];
 
-export { MainButtons, LoginButtons, SignupButtons, NavbarButtons, ScanPanelButtons, ScanBoxButtons };
+export {
+    MainButtons,
+    LoginButtons,
+    SignupButtons,
+    NavbarButtons,
+    ScanPanelButtons,
+    ScanBoxButtons,
+};

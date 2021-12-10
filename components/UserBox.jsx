@@ -9,24 +9,23 @@ const User = ({ theme, toggleTheme }) => {
     // }, [theme]);
 
     return (
-        <div className="w-3/5 h-1/2 flex flex-col md:hidden items-center justify-center top-0 left-0 p-8">
-            <div className="w-full h-full flex justify-center items-center flex-col relative bg-gray-100 rounded-xl">
+        <div className="w-full h-1/2 flex flex-col md:hidden items-center justify-center">
+            <div className="w-full h-full flex justify-center items-center flex-col rounded-xl">
                 {/* <div
                     className="absolute left-0 top-0"
                     // onClick={toggleTheme()}
                 >
                     <BsMoonFill size={32} />
                 </div> */}
-                <div className="w-28 h-28 bg-gray-200 rounded-md">
+                <div className="w-28 h-28 bg-gray-200 rounded-full">
                     {/* miejsce na obrazek profilowe*/}
                 </div>
-                <p className="m-2 text-3xl font-semibold text-center">
+                <p className="mt-4 text-2xl text-white font-semibold text-center">
                     Jan Kowalski
                 </p>
-                <p className=" text-xl text-center">janKowal@gamil.com</p>
                 <Link href="/UserPanel">
-                    <button className="text-center bg-userProfileColor text-white text-xl p-3 m-4 rounded-3xl w-36">
-                        User Panel
+                    <button className="text-center bg-userProfileColor text-white text-lg p-2 m-2 rounded-xl w-36">
+                        Edit profile
                     </button>
                 </Link>
             </div>
