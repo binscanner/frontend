@@ -13,6 +13,7 @@ module.exports = {
       'md': {'max': '767px'},
       'sm': {'max': '639px'},
       'xsm': {'max': '500px'},
+      'off' : {'max': '0px'},
 
       'mob2xl': {'min': '1535px'},
       'mobxl': {'min': '1279px'},

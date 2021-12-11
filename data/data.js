@@ -58,25 +58,30 @@ const navbarButtons = [
 
 const scanPanelButtons = [
     {
-        name: "bio",
-        style: "poppins hover:bg-bio xl:bg-bio ",
+        id: 1,
+        name: 'item',
+        style: 'bg-item poppins'
     },
     {
-        name: "glass",
-        style: "poppins hover:bg-glass xl:bg-glass",
+        id: 2,
+        name: 'bio',
+        style: 'bg-bio poppins',
     },
     {
-        name: "plastic",
-        style: "poppins hover:bg-plastic xl:bg-plastic",
+        id: 3,
+        name: 'glass',
+        style: 'bg-glass poppins',
     },
     {
-        name: "paper",
-        style: "poppins hover:bg-paper xl:bg-paper",
+        id: 4,
+        name: 'plastic',
+        style: 'bg-plastic poppins',
     },
-    // {
-    //     name: 'ITEM',
-    //     style: 'item poppins'
-    // },
+    {
+        id: 5,
+        name: 'paper',
+        style: 'bg-paper poppins',
+    },
 ];
 
 const scanBoxButtons = [
@@ -159,6 +164,9 @@ const randomColor = [
     }
 ]
 
+const days	= ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+const months	= ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
 export {
     mainButtons,
     loginButtons,
@@ -167,5 +175,7 @@ export {
     scanPanelButtons,
     scanBoxButtons,
     commonErrorsText,
-    randomColor
+    randomColor,
+    days,
+    months
 };

@@ -5,6 +5,7 @@ import UserBox from "../components/UserBox";
 import ScanBox from "../components/ScanBox";
 import MoneyBox from "../components/MoneyBox";
 import ErrorsBox from "../components/ErrorsBox";
+// import Calendar from "../components/Calendar/Monthly/Calendar";
 import CalendarBox from "../components/CalendarBox";
 
 const Home = () => {
@@ -44,16 +45,16 @@ const Home = () => {
             // ${ theme === "light-theme" ? "bg-dark" : "bg-white" }
         >
             <Navbar />
-            <div className="w-screen h-screen flex flex-row xl:flex-col-reverse xl:justify-end">
-                <div className="flex flex-col w-3/12 h-full justify-evenly z-10 xl:justify-center xl:w-full xl:h-1/4">
+            <div className="w-screen h-screen flex flex-row xl:flex-col-reverse xl:justify-end ">
+                <div className="flex flex-col w-1/5 h-full justify-evenly z-10 xl:justify-center xl:w-full xl:h-1/4">
                     <UserBox />
                     <MoneyBox />
                 </div>
-                <div className="flex flex-col w-6/12 h-full justify-evenly z-10 xl:w-full xl:h-1/4 xl:justify-center ">
+                <div className="flex flex-col w-2/5  h-full justify-evenly z-10 xl:w-full xl:h-1/4 xl:justify-center ">
                     <ScanBox />
                     <ErrorsBox />
                 </div>
-                <div className="flex flex-col w-3/12 h-full justify-evenly z-10 xl:w-full xl:h-1/3 xl:justify-center">
+                <div className="flex flex-col w-2/5  h-full justify-evenly z-10 xl:w-full xl:h-1/3 xl:justify-center">
                     <CalendarBox />
                 </div>
 

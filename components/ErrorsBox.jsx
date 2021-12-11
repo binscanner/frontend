@@ -23,9 +23,9 @@ const ErrorsBox = () => {
     };
 
     return (
-        <main className="w-3/5 h-2/3  flex items-center justify-center p-8 pt-0 pb-20 xl:hidden">
-            <div className="w-full h-full bg-lastScanColor/80 flex justify-evenly items-center flex-col rounded-xl">
-                <div className="text-xl font-semibold p-6 h-3/12 w-full text-center">
+        <main className="w-full h-2/3  flex items-center justify-center p-8 pt-0 pb-20 xl:hidden">
+            <div className="w-full h-full bg-lastScanColor/90  duration-500 shadow-xl flex justify-evenly items-center flex-col rounded-xl">
+                <div className="text-2xl font-semibold p-6 h-3/12 w-full text-center">
                     The most common errors
                 </div>
 
@@ -39,10 +39,10 @@ const ErrorsBox = () => {
                                 <div
                                     className={`w-full h-full flex flex-col items-center  rounded-xl p-7 pt-0`}
                                 >
-                                    <div className="h-auto w-full text-center text-lg pb-4 pt-10 p-6  bg-glass/80 rounded-tr-xl rounded-tl-xl">
+                                    <div className="h-auto w-full text-center font-bold text-lg pb-4 pt-10 p-6  bg-glass/80 rounded-tr-xl rounded-tl-xl">
                                         {title}
                                     </div>
-                                    <div className="h-auto w-full text-justify  text-md pt-0 p-6 pb-10  mb-6 bg-glass/80 rounded-br-xl rounded-bl-xl">
+                                    <div className="h-auto w-full text-justify font-semibold  text-md pt-0 p-6 pb-10  mb-6 bg-glass/80 rounded-br-xl rounded-bl-xl">
                                         {text}
                                     </div>
                                 </div>
