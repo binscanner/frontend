@@ -9,7 +9,7 @@ const User = ({ theme, toggleTheme }) => {
     // }, [theme]);
 
     return (
-        <div className="w-full h-1/2 flex flex-col md:hidden items-center justify-center">
+        <div className="w-full pl-8 h-1/2 flex flex-col xl:hidden items-center justify-center">
             <div className="w-full h-full flex justify-center items-center flex-col rounded-xl">
                 {/* <div
                     className="absolute left-0 top-0"
@@ -24,7 +24,7 @@ const User = ({ theme, toggleTheme }) => {
                     Jan Kowalski
                 </p>
                 <Link href="/UserPanel">
-                    <button className="text-center bg-userProfileColor text-white text-lg p-2 m-2 rounded-xl w-36">
+                    <button className="text-center bg-userProfileColor text-white text-lg p-2 m-2 rounded-xl w-36 2xl:text-sm">
                         Edit profile
                     </button>
                 </Link>

@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import { NavbarButtons as data } from "../data/data";
+import { navbarButtons as data } from "../data/data";
 
 const Navbar = () => {
     return (
-        <nav className="w-screen h-auto flex justify-center absolute bottom-8 mobmd:hidden">
+        <nav className="w-screen h-auto flex justify-center absolute bottom-8 mobxl:hidden z-50">
             <ul className="w-9/12 flex flex-row justify-around">
                 {data.map(({ value, url, img }, index) => {
                     return (

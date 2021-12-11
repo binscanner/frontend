@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { ScanPanelButtons as data } from "../data/data";
+import { scanPanelButtons as data } from "../data/data";
 import { HiOutlineArrowNarrowLeft } from "react-icons/hi";
 
 const ScanPanel = () => {

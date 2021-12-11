@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { LoginButtons as data } from "../data/data";
+import { loginButtons as data } from "../data/data";
 
 const Login = () => {
     return (
@@ -10,7 +10,10 @@ const Login = () => {
                     <a className="font-k2d text-5xl">binscanner</a>
                 </Link>
             </div>
-            <form action="" className="flex flex-col items-center justify-center w-72">
+            <form
+                action=""
+                className="flex flex-col items-center justify-center w-72"
+            >
                 <span className="flex flex-row justify-between w-full items-center m-4">
                     <label className="text-2xl" htmlFor="">
                         Log in

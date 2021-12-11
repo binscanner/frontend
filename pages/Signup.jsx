@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { SignupButtons as data } from "../data/data";
+import { signupButtons as data } from "../data/data";
 
 const Signup = () => {
     return (
@@ -10,7 +10,10 @@ const Signup = () => {
                     <a className="font-k2d text-5xl">binscanner</a>
                 </Link>
             </div>
-            <form action="" className="flex flex-col items-center justify-center w-72">
+            <form
+                action=""
+                className="flex flex-col items-center justify-center w-72"
+            >
                 <span className="flex flex-row justify-between w-full items-center m-4">
                     <label className="text-2xl" htmlFor="">
                         Sign up

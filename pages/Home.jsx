@@ -5,6 +5,7 @@ import UserBox from "../components/UserBox";
 import ScanBox from "../components/ScanBox";
 import MoneyBox from "../components/MoneyBox";
 import ErrorsBox from "../components/ErrorsBox";
+import CalendarBox from "../components/CalendarBox";
 
 const Home = () => {
     const getStorageTheme = () => {
@@ -39,23 +40,32 @@ const Home = () => {
 
     return (
         <div
-            className="w-screen h-screen bg-home flex"
+            className="w-screen h-screen bg-home flex flex-row xl:flex-col"
             // ${ theme === "light-theme" ? "bg-dark" : "bg-white" }
         >
             <Navbar />
-            <div className="w-screen h-screen flex">
-                <div className="flex flex-col w-2/12 h-full justify-evenly z-10">
+            <div className="w-screen h-screen flex flex-row xl:flex-col-reverse xl:justify-end">
+                <div className="flex flex-col w-3/12 h-full justify-evenly z-10 xl:justify-center xl:w-full xl:h-1/4">
                     <UserBox />
                     <MoneyBox />
                 </div>
-                <div className="flex flex-col w-6/12 h-full justify-evenly z-10">
+                <div className="flex flex-col w-6/12 h-full justify-evenly z-10 xl:w-full xl:h-1/4 xl:justify-center ">
                     <ScanBox />
                     <ErrorsBox />
                 </div>
+                <div className="flex flex-col w-3/12 h-full justify-evenly z-10 xl:w-full xl:h-1/3 xl:justify-center">
+                    <CalendarBox />
+                </div>
+
                 <img
                     src="/assets/comp2-waves.png"
                     alt=""
-                    className="absolute w-full left-0 bottom-0 "
+                    className="absolute w-full left-0 bottom-0 z-0 md:hidden"
+                />
+                <img
+                    src="/assets/mobile.svg"
+                    alt=""
+                    className="absolute w-full left-0 bottom-0 z-0 mobmd:hidden"
                 />
             </div>
         </div>
