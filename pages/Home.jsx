@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import dynamic from "next/dynamic";
 
 import Navbar from "../components/Navbar";
 import UserBox from "../components/UserBox";
@@ -6,7 +7,10 @@ import ScanBox from "../components/ScanBox";
 import MoneyBox from "../components/MoneyBox";
 import ErrorsBox from "../components/ErrorsBox";
 // import Calendar from "../components/Calendar/Monthly/Calendar";
-import CalendarBox from "../components/CalendarBox";
+
+const CalendarBox = dynamic(() => import("../components/CalendarBox"), {
+    ssr: false,
+});
 
 const Home = () => {
     const getStorageTheme = () => {

@@ -164,8 +164,25 @@ const randomColor = [
     }
 ]
 
-const days	= ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-const months	= ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+const events = [{
+    id: 1,
+    color: '#fd3153',
+    from: '2021-12-12T00:00:00+00:00',
+    to: '2021-12-12T23:00:00+00:00',
+    title: 'BIO'
+}, {
+    id: 2,
+    color: '#1ccb9e',
+    from: '2021-12-15T00:00:00+00:00',
+    to: '2021-12-15T23:00:00+00:00',
+    title: 'PAPER'
+}, {
+    id: 3,
+    color: '#3694DF',
+    from: '2021-12-23T13:00:00+00:00',
+    to: '2021-12-23T20:00:00+00:00',
+    title: 'PLASTIC'
+}];
 
 export {
     mainButtons,
@@ -176,6 +193,5 @@ export {
     scanBoxButtons,
     commonErrorsText,
     randomColor,
-    days,
-    months
+    events
 };

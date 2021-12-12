@@ -1,0 +1,101 @@
+div.dayText,
+div.currentDay {
+    display: flex;
+    justify-self: center;
+    min-width: 30px;
+    min-height: 30px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+.dayText > span {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+#datHeader > .dayText {
+    display: flex;
+    justify-self: center;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+.weekRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.dayDate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dayHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#dayCell,
+.dayCell {
+    display: flex;
+    flex-direction: col;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.eventTitle {
+    text-align: center;
+    width: 100%;
+}
+.dayCellEventWrapper {
+    width: 100%;
+}
+
+div.calendarDayOfWeek {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.calendarDayOfWeek > div {
+    text-align: center;
+    color: white;
+}
+div.inactiveDay > div.dayText > span {
+    color: #ccc;
+}
+div.dayText > span {
+    font-weight: 500;
+}
+
+div.calendarHeader,
+div.weekRow {
+    border-bottom: 1px solid white;
+}
+div.calendarHeaderButtons > button {
+    color: white;
+}
+
+span.thickText,
+span.thinText {
+    color: white;
+}
+
+button.modeButton {
+    color: white;
+}
+div.modeWrapper > button.modeButtonActive {
+    background-color: #fd3153;
+    border-radius: 30px;
+    color: #fff;
+}
