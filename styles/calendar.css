@@ -99,3 +99,11 @@ div.modeWrapper > button.modeButtonActive {
     border-radius: 30px;
     color: #fff;
 }
+div.calendarHeader > h1 {
+    text-align: center;
+    padding: 5px;
+}
+
+div.dailyHourText {
+    color: white;
+}

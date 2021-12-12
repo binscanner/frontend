@@ -16,12 +16,12 @@ const ScanPanel = () => {
                 What do you want scan?
             </p>
 
-            <ul className="h-5/6 w-screen flex items-center justify-center flex-wrap flex-col  xl:flex-col p-10 z-10">
+            <ul className="h-5/6 w-screen flex items-center justify-center flex-wrap flex-col xl:flex-nowrap  xl:flex-col p-10 z-10 ">
                 {data.map(({ id, name, style }) => {
                     return (
                         <li
                             key={id}
-                            className={`${style} w-1/2 h-1/6 xl:w-3/5  xl:h-1/5 uppercase hover:bg-lastScanColor/80 bg-lastScanColor/50  duration-300 font-extrabold flex m-auto text-center rounded-xl text-5xl items-center justify-center sm:text-3xl `}
+                            className={`${style} w-1/2 h-1/6 xl:w-full xl:bg-lastScanColor/90  xl:m-4  xl:h-1/5 uppercase hover:bg-lastScanColor/80 bg-lastScanColor/50  duration-300 font-extrabold flex m-auto text-center rounded-xl text-5xl items-center justify-center sm:text-3xl `}
                         >
                             {name}
                         </li>

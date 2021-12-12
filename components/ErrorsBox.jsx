@@ -24,8 +24,8 @@ const ErrorsBox = () => {
 
     return (
         <main className="w-full h-2/3  flex items-center justify-center p-8 pt-0 pb-20 xl:hidden">
-            <div className="w-full h-full bg-lastScanColor/90  duration-500 shadow-xl flex justify-evenly items-center flex-col rounded-xl">
-                <div className="text-2xl font-semibold p-6 h-3/12 w-full text-center">
+            <div className="w-full h-full bg-white/20 backdrop-blur off:bg-lastScanColor/90  duration-500 shadow-xl flex justify-evenly items-center flex-col rounded-xl">
+                <div className="text-2xl font-semibold p-6 h-3/12 w-full text-center text-white">
                     The most common errors
                 </div>
 

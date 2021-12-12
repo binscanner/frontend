@@ -9,8 +9,8 @@ const User = ({ theme, toggleTheme }) => {
     // }, [theme]);
 
     return (
-        <div className="w-full pl-8 p-10 pr-1 h-1/2 flex flex-col xl:hidden items-center justify-center ">
-            <div className="w-full h-full flex justify-center items-center flex-col rounded-xl   duration-300">
+        <div className="w-full pl-8 p-10 pr-1 h-1/2 flex flex-col xl:hidden items-center justify-center  ">
+            <div className="w-full h-full flex justify-center items-center flex-col rounded-xl bg-white/20 backdrop-blur  duration-300">
                 {/* <div
                     className="absolute left-0 top-0"
                     // onClick={toggleTheme()}
