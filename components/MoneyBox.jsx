@@ -14,7 +14,7 @@ const MoneyCounter = () => {
 
     return (
         <main className="w-full h-1/2 flex items-center justify-center pl-8 pr-2 pt-0 pb-20 xl:w-full xl:p-2 xl:h-full">
-            <div className="w-full h-full bg-white/20 backdrop-blur off:bg-moneyCounterColor/90 duration-300 rounded-xl flex flex-col items-center justify-evenly xl:p-2 off:shadow-xl">
+            <div className="w-full h-full  bg-black/20  backdrop-blur off:bg-moneyCounterColor/90 duration-300 rounded-xl flex flex-col items-center justify-evenly xl:p-2 shadow-xl">
                 <div className="text-2xl 2xl:text-lg font-semibold text-center w-8/12 text-white">
                     Collected funds for a charity collection
                 </div>

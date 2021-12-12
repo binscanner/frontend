@@ -64,15 +64,13 @@ const Home = () => {
                 <div className="flex flex-col w-2/5  h-full justify-evenly z-10 xl:w-full xl:h-1/3 xl:justify-center">
                     <CalendarBox />
                 </div>
-                <Wave
-                    fill="#258C25"
-                    className="absolute w-screen h-1/2 left-0 bottom-0 z-0 md:hidden"
-                    options={{
-                        amplitude: 100,
-                        speed: 0.1,
-                        points: 10,
-                    }}
-                />
+                <label
+                    htmlFor=""
+                    className=" top-0 font-k2d pb-4 text-2xl w-full backdrop-blur text-white font-extrabold mobxl:hidden text-center"
+                >
+                    binscanner
+                </label>
+
                 {/* <svg
                         id="visual"
                         viewBox="0 0 1900 1080"
@@ -109,6 +107,15 @@ const Home = () => {
                         />
                     </svg> */}
             </div>
+            <Wave
+                fill="#258C25"
+                className="absolute w-screen h-1/2 left-0 bottom-0 z-0"
+                options={{
+                    amplitude: 100,
+                    speed: 0.1,
+                    points: 4,
+                }}
+            />
             {/* <img
                 src="/assets/comp2-waves.png"
                 alt=""
