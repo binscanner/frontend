@@ -42,17 +42,17 @@ const navbarButtons = [
     {
         value: "Camera",
         url: "/Camera",
-        img: <FaCamera size={26} />,
+        img: <FaCamera size={26} color='white'/>,
     },
     {
         value: "Home",
         url: "/Home",
-        img: <FaHome size={26} />,
+        img: <FaHome size={26} color='white'/>,
     },
     {
         value: "User",
         url: "/UserPanel",
-        img: <FaUserCircle size={26} />,
+        img: <FaUserCircle size={26} color='white'/>,
     },
 ];
 

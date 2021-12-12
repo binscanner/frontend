@@ -4,7 +4,7 @@ import { navbarButtons as data } from "../data/data";
 
 const Navbar = () => {
     return (
-        <nav className="w-screen h-auto flex justify-center absolute bottom-8 mobxl:hidden z-50">
+        <nav className="w-screen h-auto flex justify-center absolute bottom-0 mobxl:hidden bg-white/20 z-50 p-5 backdrop-blur rounded-t-3xl">
             <ul className="w-9/12 flex flex-row justify-around">
                 {data.map(({ value, url, img }, index) => {
                     return (

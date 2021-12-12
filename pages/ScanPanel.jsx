@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { scanPanelButtons as data } from "../data/data";
 import { HiOutlineArrowNarrowLeft } from "react-icons/hi";
+import Wave from "react-wavify";
 
 const ScanPanel = () => {
     return (
@@ -21,15 +22,24 @@ const ScanPanel = () => {
                     return (
                         <li
                             key={id}
-                            className={`${style} w-1/2 h-1/6 xl:w-full xl:bg-lastScanColor/90  xl:m-4  xl:h-1/5 uppercase hover:bg-lastScanColor/80 bg-lastScanColor/50  duration-300 font-extrabold flex m-auto text-center rounded-xl text-5xl items-center justify-center sm:text-3xl `}
+                            className={`${style} w-1/2 h-1/6 xl:w-full bg-white/20 backdrop-blur xl:m-4  xl:h-1/5 uppercase   duration-300 font-extrabold flex m-auto text-center rounded-xl text-5xl items-center justify-center sm:text-3xl `}
                         >
                             {name}
                         </li>
                     );
                 })}
             </ul>
+            <Wave
+                fill="#258C25"
+                className="absolute w-screen h-1/2 left-0 bottom-0 z-0 md:hidden"
+                options={{
+                    amplitude: 100,
+                    speed: 0.1,
+                    points: 4,
+                }}
+            />
 
-            <img
+            {/* <img
                 src="/assets/comp2-waves.png"
                 alt=""
                 className="absolute w-full left-0 bottom-0 z-0 md:hidden"
@@ -38,7 +48,7 @@ const ScanPanel = () => {
                 src="/assets/mobile.svg"
                 alt=""
                 className="absolute w-full left-0 bottom-0 z-0 mobmd:hidden"
-            />
+            /> */}
         </div>
     );
 };
