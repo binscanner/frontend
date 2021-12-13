@@ -1,3 +1,12 @@
+Autor projektu: Jakub Buczkowski z ARC 
+
+⚠️
+Projekt nie został ukończony, nie posiada w sobie wyszkolonego modelu sztucznej inteligencji, serwera, bazy danych dla użytkowników i ich danych. 
+
+Niestety w projekcie nie ma przykładowego działania, ponieważ na dzień przed oddaniem projektu, koledzy zrezygnowali z niego, mówiąc, że projekt niema sensu. 
+
+Z tego powodu nie otrzymałem sztucznej inteligencji i backendu. Szczerze wierze w mój pomysł, który jest uniwersalny i nowatorski a każda idea ma swój potencjał teraz trzeba zadać pytanie jak go wykorzystać? 
+⚠️
 
 <h1>Konfirugacja i uruchamianie :</h1>
 
