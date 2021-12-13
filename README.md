@@ -6,6 +6,9 @@
 3. npm i 
 4. npm run dev 
 
+<h1>Link do projektu w Figmie </h1> 
+
+https://www.figma.com/file/pUOF7meBsDFinHiNYHU6Vx/binscanner?node-id=0%3A1 
 
 <h1> Układ stron : </h1> 
 <ul>
