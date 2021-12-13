@@ -1,12 +1,39 @@
 
+<h1>Konfirugacja i uruchamianie :</h1>
 
-1. Wstęp 
+1. Pobrać pliki  
+2. Wejść w CMD w lokalizacje projektu (np C:/User/Documents/frontend) 
+3. npm i 
+4. npm run dev 
+
+
+<h1> Układ stron : </h1> 
+<ul>
+ <li>
+  Strona główna -> /
+ </li>
+ <li>
+  Logowanie -> /Login
+ </li>
+ <li>
+  Rejestracja -> /Signup 
+ </li>
+ <li>
+  Interface Aplikacji -> /Home 
+ </li>
+</ul>
+(Podstorny /Login i /Signup nie mają działania z poniżej opianych powodów)
+
+
+<h1> Opis pomysłu aplikacji : </h1>
+<hr>
+<h2>1. Wstęp</h2> 
 
 Z pewnością wielu z nas posiada w domu 3 może i nawet 4 kosze, jeżeli nie to pewnie segregujesz opady to reklamówek itp., ale tematem tego projektu nie jest to, gdzie wyrzucasz tylko jak. Z pewnością mieliście tak, że się spieszyliście, goście do was przyszli pomylili kosze, macie może mniejsze dzieci lub nie zwracacie na to głównej uwagi, bo przecież nie każdy idealnie segreguje śmieci i zanieczyszczenia trafiały tam, gdzie nie powinny trafić. Nasza aplikacja ma pomóc Ci w zachowaniu 100% recyklingu. 
 
  
-
-2. Binscanner  
+<hr>
+<h2>2. Binscanner </h2> 
 
 Jest to innowacyjna aplikacja umożliwiająca skanowanie śmietnika i sprawdzaniu, czy wszystkie elementy zostały odpowiednio wrzucone.  
 
@@ -19,16 +46,16 @@ Główną uwagę skupiliśmy na NIEPRAWIDŁOWEJ SEGREGACJI ODPADÓW, niby się w
 I tu nasuwa się pytanie: Czyli to znaczy, że będę musiał skanować za każdym razem jak wrzucę dany przedmiot? Nie! I w ten sposób przejdziemy w plany na przyszłość. 
 
  
-
-4. Plany na przyszłość 
+<hr>
+<h2>4. Plany na przyszłość </h2>
 
 Rozumiemy, że nie wszystkim chce się zwrócić uwagę, gdzie wyrzuca odpady w domu (bo tak jak opisałem to w punkcie 1, istnieje wiele współczynników pomyłek) a co dopiero skanowanie śmietnika za każdym razem. 
 
 Komu by się chciało. 
 
 Wiec nasz internetowy projekt to tylko wierzchołek góry lodowej i już tłumacze. Zamierzamy stworzyć małe urządzenie z naszym programowaniem, bluetoothem i małym źródłem światła, które będzie można zamontować nad pojemnikami na śmieci, aby skanował bez naszego udziału, a jeżeli się pomylimy, to dostaniemy powiadomienie na telefon wraz ze zdjęciem. 
-
-5. Dodatki 
+<hr>
+<h2> 5. Dodatki </h2>
 
 Aby rozpromować nasz produkt chcielibyśmy coś dawać, a naszym pomysłem jest dawanie możliwości wspierania funduszy charytatywnych. 
 
@@ -63,12 +90,13 @@ Plan wywozu śmieci tak abyś pamiętał o nich zawsze, na razie występuję w f
 Dodatkowo planowane jest skanowanie za pomocą kodu kreskowego, ponieważ sztuczna inteligencja nie jest nieomylna 
 
  
+<hr>
+<div class="autor">
+ <center><h3>Autor projektu, designu i frontendu:  Jakub Buczkowski z ARC</h3> </center>
 
- 
-Autor projektu: Jakub Buczkowski z ARC 
+ Projekt nie został ukończony, nie posiada w sobie wyszkolonego modelu sztucznej inteligencji, serwera, bazy danych dla użytkowników i ich danych. 
 
-Projekt nie został ukończony, nie posiada w sobie wyszkolonego modelu sztucznej inteligencji, serwera, bazy danych dla użytkowników i ich danych. 
+ Niestety w projekcie nie ma przykładowego działania, ponieważ na dzień przed oddaniem projektu, koledzy zrezygnowali z niego, mówiąc, że projekt niema sensu. 
 
-Niestety w projekcie nie ma przykładowego działania, ponieważ na dzień przed oddaniem projektu, koledzy zrezygnowali z niego, mówiąc, że projekt niema sensu. 
-
-Z tego powodu nie otrzymałem sztucznej inteligencji i backendu. Szczerze wierze w mój pomysł, który jest uniwersalny i nowatorski a każda idea ma swój potencjał teraz trzeba zadać pytanie jak go wykorzystać? 
+ Z tego powodu nie otrzymałem sztucznej inteligencji i backendu. Szczerze wierze w mój pomysł, który jest uniwersalny i nowatorski a każda idea ma swój potencjał teraz trzeba    zadać pytanie jak go wykorzystać? 
+ </div>
