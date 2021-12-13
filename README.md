@@ -1,29 +1,74 @@
-# Next.js + Tailwind CSS Example
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+1. Wstęp 
 
-## Preview
+Z pewnością wielu z nas posiada w domu 3 może i nawet 4 kosze, jeżeli nie to pewnie segregujesz opady to reklamówek itp., ale tematem tego projektu nie jest to, gdzie wyrzucasz tylko jak. Z pewnością mieliście tak, że się spieszyliście, goście do was przyszli pomylili kosze, macie może mniejsze dzieci lub nie zwracacie na to głównej uwagi, bo przecież nie każdy idealnie segreguje śmieci i zanieczyszczenia trafiały tam, gdzie nie powinny trafić. Nasza aplikacja ma pomóc Ci w zachowaniu 100% recyklingu. 
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+ 
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+2. Binscanner  
 
-## Deploy your own
+Jest to innowacyjna aplikacja umożliwiająca skanowanie śmietnika i sprawdzaniu, czy wszystkie elementy zostały odpowiednio wrzucone.  
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+Binscanner działa dzięki sztucznej inteligencji, modelu, którego wyszkoliliśmy tak, aby rozpoznawał i wiedział, gdzie powinny trafić nasze odpady. 
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+3. Zastosowanie w życiu codziennym 
 
-## How to use
+Główną uwagę skupiliśmy na NIEPRAWIDŁOWEJ SEGREGACJI ODPADÓW, niby się wydaje to proste, a jednak ludzie często mylą miejsca, gdzie powinien trafić danych przedmiot. I tu z pomocą wkracza binscanner, który wykryje błędnie wrzucony przedmiot i wskaże jego odpowiednie miejsce.  
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+I tu nasuwa się pytanie: Czyli to znaczy, że będę musiał skanować za każdym razem jak wrzucę dany przedmiot? Nie! I w ten sposób przejdziemy w plany na przyszłość. 
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+ 
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+4. Plany na przyszłość 
+
+Rozumiemy, że nie wszystkim chce się zwrócić uwagę, gdzie wyrzuca odpady w domu (bo tak jak opisałem to w punkcie 1, istnieje wiele współczynników pomyłek) a co dopiero skanowanie śmietnika za każdym razem. 
+
+Komu by się chciało. 
+
+Wiec nasz internetowy projekt to tylko wierzchołek góry lodowej i już tłumacze. Zamierzamy stworzyć małe urządzenie z naszym programowaniem, bluetoothem i małym źródłem światła, które będzie można zamontować nad pojemnikami na śmieci, aby skanował bez naszego udziału, a jeżeli się pomylimy, to dostaniemy powiadomienie na telefon wraz ze zdjęciem. 
+
+5. Dodatki 
+
+Aby rozpromować nasz produkt chcielibyśmy coś dawać, a naszym pomysłem jest dawanie możliwości wspierania funduszy charytatywnych. 
+
+Na czym to miałoby polegać, rocznie miliony pieniędzy są przekazywanie na cele charytatywne, przez ludzi, którzy chcą to wspierać. Naszym zadaniem jest przekonać osobę, celebrytę lub firmę, która uwierzyłaby w nasz produkt i jej szczytny cel jakim jest dbanie o środowisko i wspieranie innych ludzi. 
+
+Przechodząc do szczegółów, używając naszej internetowej aplikacji lub binscannera fizycznego, dziennie byłaby przekazania dana kwota.  
+
+W praktyce: 
+
+Wskazanie zbiórki na panelu  
+
+Ty skanujesz kosz 
+
+Pieniądze się naliczają dziennie (0,12 zł) 
+
+Na koniec miesiąca osoba, która się zadeklarowała, celebryta lub organizacja wpłaca na zbiórkę pieniądze 
+
+Przykładowe obliczenia: 
+
+Średnia miesięczna ilość użytkowników: 2000 
+
+(0,12 * 2000) * 30 = 7200 zł - miesięczna ilość przekazanych na zbiórkę 
+
+A jakie korzyści będzie miał użytkownik? 
+
+W przyszłości może się to przyczynić do niższych składek za wywóz śmieci, ponieważ nieprawidłowo posegregowane odpady powodują zwiększone koszty zagospodarowania i uniemożliwiają efektywny odzysk, surowców a używanie naszej przyszłej technologii będzie mogło być świadectwem, że wszystkie produkty na pewno zostały odpowiednio posegregowane. 
+
+Dodatkowymi funkcjami naszej aplikacji są: 
+
+Plan wywozu śmieci tak abyś pamiętał o nich zawsze, na razie występuję w funkcji dodawania, lecz w przyszłości będzie pobierał te dane np. z API dla wyznaczonego przez użytkownika miasta czy regionu 
+
+Dodatkowo planowane jest skanowanie za pomocą kodu kreskowego, ponieważ sztuczna inteligencja nie jest nieomylna 
+
+ 
+
+ 
+Autor projektu: Jakub Buczkowski z ARC 
+
+Projekt nie został ukończony, nie posiada w sobie wyszkolonego modelu sztucznej inteligencji, serwera, bazy danych dla użytkowników i ich danych. 
+
+Niestety w projekcie nie ma przykładowego działania, ponieważ na dzień przed oddaniem projektu, koledzy zrezygnowali z niego, mówiąc, że projekt niema sensu. 
+
+Z tego powodu nie otrzymałem sztucznej inteligencji i backendu. Szczerze wierze w mój pomysł, który jest uniwersalny i nowatorski a każda idea ma swój potencjał teraz trzeba zadać pytanie jak go wykorzystać? 
