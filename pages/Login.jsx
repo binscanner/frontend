@@ -19,7 +19,10 @@ const Login = () => {
                         Log in
                     </label>
                     <label className="text-xl" htmlFor="">
-                        <Link href="/Signup">
+                        <Link
+                            href="/Signup"
+                            as={process.env.BACKEND_URL + "/Signup"}
+                        >
                             <a className="link-custom"> Sign up </a>
                         </Link>
                     </label>
@@ -42,7 +45,7 @@ const Login = () => {
             </form>
             <div className="flex justify-evenly  items-center w-56 ">
                 Miss a password?{" "}
-                <Link href="/">
+                <Link href="/" as={process.env.BACKEND_URL + "/"}>
                     <a className="link-custom"> Click here </a>
                 </Link>
             </div>

@@ -19,7 +19,10 @@ const LastScan = () => {
                                     key={index}
                                     className="text-center  bg-userProfileColor text-white p-2 m-2 rounded-xl w-36 xl:text-sm 2xl:text-xl"
                                 >
-                                    <Link href={url}>
+                                    <Link
+                                        href={url}
+                                        as={process.env.BACKEND_URL + url}
+                                    >
                                         <a className="">{text}</a>
                                     </Link>
                                 </li>

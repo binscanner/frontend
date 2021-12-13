@@ -26,7 +26,11 @@ const Home = () => {
                         {mainButtons.map(({ text, style, href }, index) => {
                             return (
                                 <div key={index} className={style}>
-                                    <Link href={href} className="w-full h-full">
+                                    <Link
+                                        href={href}
+                                        as={process.env.BACKEND_URL + href}
+                                        className="w-full h-full"
+                                    >
                                         <a> {text} </a>
                                     </Link>
                                 </div>

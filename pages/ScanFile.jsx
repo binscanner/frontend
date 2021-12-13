@@ -1,2 +1,7 @@
-// miejsce na dodanie pliku
-// i skanowanie go
+import React from "react";
+
+const ScanFile = () => {
+    return <div>scan file</div>;
+};
+
+export default ScanFile;

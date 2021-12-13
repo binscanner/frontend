@@ -13,7 +13,7 @@ const Navbar = () => {
                             value={value}
                             className="flex rounded-full w-11 h-11 items-center justify-center"
                         >
-                            <Link href={url}>
+                            <Link href={url} as={process.env.BACKEND_URL + url}>
                                 <a>{img}</a>
                             </Link>
                         </li>

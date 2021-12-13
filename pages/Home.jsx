@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import dynamic from "next/dynamic";
 
 // import { animated, useSpring } from "react-spring";
@@ -9,42 +9,41 @@ import ScanBox from "../components/ScanBox";
 import MoneyBox from "../components/MoneyBox";
 import ErrorsBox from "../components/ErrorsBox";
 // import Calendar from "../components/Calendar/Monthly/Calendar";
-import KUTE from "kute.js";
 
 const CalendarBox = dynamic(() => import("../components/CalendarBox"), {
     ssr: false,
 });
 
 const Home = () => {
-    const getStorageTheme = () => {
-        let theme = "light-theme";
-        console.log(localStorage);
-        if (localStorage.getItem("theme") === null) {
-            localStorage.setItem("theme", "light-theme");
-        } else {
-            theme = localStorage.getItem("theme");
-        }
-        return theme;
-    };
+    // const getStorageTheme = () => {
+    //     let theme = "light-theme";
+    //     console.log(localStorage);
+    //     if (localStorage.getItem("theme") === null) {
+    //         localStorage.setItem("theme", "light-theme");
+    //     } else {
+    //         theme = localStorage.getItem("theme");
+    //     }
+    //     return theme;
+    // };
 
-    const [theme, setTheme] = useState(null);
+    // const [theme, setTheme] = useState(null);
 
-    const toggleTheme = () => {
-        if (theme === "light-theme") {
-            setTheme("dark-theme");
-        } else {
-            setTheme("light-theme");
-        }
-    };
+    // const toggleTheme = () => {
+    //     if (theme === "light-theme") {
+    //         setTheme("dark-theme");
+    //     } else {
+    //         setTheme("light-theme");
+    //     }
+    // };
 
-    useEffect(() => {
-        getStorageTheme();
-    }, []);
+    // useEffect(() => {
+    //     getStorageTheme();
+    // }, []);
 
-    useEffect(() => {
-        document.documentElement.className = theme;
-        localStorage.setItem("theme", theme);
-    }, [theme]);
+    // useEffect(() => {
+    //     document.documentElement.className = theme;
+    //     localStorage.setItem("theme", theme);
+    // }, [theme]);
 
     return (
         <div

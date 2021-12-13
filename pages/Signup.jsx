@@ -6,7 +6,7 @@ const Signup = () => {
     return (
         <article className="flex flex-col w-screen h-screen justify-center items-center">
             <div className=" m-10">
-                <Link href="/">
+                <Link href="/" as={process.env.BACKEND_URL + "/"}>
                     <a className="font-k2d text-5xl">binscanner</a>
                 </Link>
             </div>
@@ -19,7 +19,10 @@ const Signup = () => {
                         Sign up
                     </label>
                     <label className="text-xl" htmlFor="">
-                        <Link href="/Login">
+                        <Link
+                            href="/Login"
+                            as={process.env.BACKEND_URL + "/Login"}
+                        >
                             <a className="link-custom"> Log in </a>
                         </Link>
                     </label>

@@ -23,7 +23,10 @@ const User = ({ theme, toggleTheme }) => {
                 <p className="mt-4 text-2xl text-white font-semibold text-center">
                     Jan Kowalski
                 </p>
-                <Link href="/UserPanel">
+                <Link
+                    href="/UserPanel"
+                    as={process.env.BACKEND_URL + "/UserPanel"}
+                >
                     <button className="text-center bg-userProfileColor text-white text-lg p-2 m-5 rounded-xl w-36 2xl:text-sm">
                         Edit profile
                     </button>
